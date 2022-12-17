@@ -12,13 +12,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
     function triggerVideoPlay() {
+        let videoPlayer = document.querySelector('.background-video-fix video');
         jQuery('body').on('click touchstart', function () {
-            if (videoContainer.playing) {
+            if (videoPlayer.playing) {
                 
             }
             else {
-                videoContainer.play();
-                videoContainer.style.opacity = "1";
+                videoPlayer.play();
+                videoPlayer.style.opacity = "1";
             }
         });
     }    
