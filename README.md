@@ -9,3 +9,5 @@ Simply add a classname to your section/columns (see below):
 .background-video-fix
 
 On devices with low battery (it hides the button and all) but the moment you click/touch your device it starts playing ^_^
+
+P.S: Only tested with Self-Hosted and a video uploaded to Cloudinary (or other that provides a direct url to the video file (e.g: https://example.com/uploads/sample.mp4. To be tested with other providers.
