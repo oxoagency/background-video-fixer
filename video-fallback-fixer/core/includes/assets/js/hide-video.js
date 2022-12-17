@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     function triggerVideoPlay() {
         jQuery('body').on('click touchstart', function () {
-            let videoContainer = document.querySelector('.background-video-fix video');
             if (videoContainer.playing) {
                 
             }
